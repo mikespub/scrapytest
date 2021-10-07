@@ -49,7 +49,7 @@ class SiteScrapSpiderMiddleware:
         yield from start_requests
 
     def spider_opened(self, spider):
-        spider.logger.info('Spider opened: %s' % spider.name)
+        spider.logger.info("Spider opened: %s" % spider.name)
 
 
 class SiteScrapDownloaderMiddleware:
@@ -96,4 +96,4 @@ class SiteScrapDownloaderMiddleware:
         pass
 
     def spider_opened(self, spider):
-        spider.logger.info('Spider opened: %s' % spider.name)
+        spider.logger.info("Spider opened: %s" % spider.name)
