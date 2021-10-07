@@ -1,5 +1,2 @@
-#pip list -l --not-required --format freeze
-#pip==10.0.1
-#scrapely==0.13.4
-Scrapy==1.5.0
-#wheel==0.30.0
+# scrapely==0.14.1
+Scrapy==2.5.1
