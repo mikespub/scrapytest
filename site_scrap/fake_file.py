@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # Parse local files directly instead of going via spider and downloader
 # CHECKME: follow similar structure as scrapy spiders, cfr. imdb_local.py
